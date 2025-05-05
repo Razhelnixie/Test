@@ -1,0 +1,487 @@
+<!DOCTYPE html> 
+<title>Quarter 4</title>
+	
+	<nav>
+		<ul class="ul-menu">
+			<div class="topnav">
+				<a href="Home Page.html">Home Page</a>
+				<a href="Quarter 1.html">Quarter 1</a>
+				<a href="Quarter 2.html">Quarter 2</a>
+				<a href="Quarter 3.html">Quarter 3</a>
+				<a class="active" href="Quarter 4.html">Quarter 4</a>
+				<img src="Logo.png" class="hello">
+			</div>
+		</ul>
+	</nav>
+
+<div class="header">
+			<h1>Blooming Wellness</h1>
+			<p>"Get aware, because true wellness blooms from within."</p>
+		</div>
+<style>
+.hello{
+	position: absolute;
+	height: auto;
+	left: 0px;
+	width: 87px;
+	margin-top: 0.3%;
+}
+body {
+	background-color: black;
+}
+
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+}
+h1 {
+	margin-top: 8px;
+	font-size: 50px;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	color: #white;
+}
+
+.topnav {
+	position: relevant;
+	margin-top: -22px;
+	top: 0;
+	font-family: Georgia, serif;
+	overflow: hidden;
+	background-color: #976653;
+	font-weight: bold;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 46.7px 139.7px;
+	text-decoration: none;
+	font-size: 17px;]
+}
+
+.topnav a:hover {
+	background-color: #E9D7C0;
+	color: #43302E;
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.topnav a.active {
+	background-color:  #E9D7C0;
+	color: #43302E;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+.header {
+	font-family: Georgia, serif;
+	font-weight: bold;
+	position: relevant;
+	padding: 60px;
+	text-align: center;
+	background: #1abc9c;
+	color: #43302E;
+	font-size: 30px;
+	transition: 0.4s;
+	background-image: linear-gradient(to right, #F5C4C8 ,#D8D7B2);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in;
+}
+.ul-menu{
+	margin-bottom: 0px;
+	margin-top: 0.5%;
+	margin-left: 2.7%;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+  </style>
+
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Channel analytics
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+
+    .chart-line {
+      stroke: #818cf8;
+      stroke-width: 2;
+      fill: none;
+      animation: waveThenSlowRise 12s ease-in-out infinite;
+      transform-origin: center bottom;
+    }
+    .chart-area {
+      fill: rgba(129, 140, 248, 0.2);
+      animation: waveThenSlowRise 12s ease-in-out infinite;
+      transform-origin: center bottom;
+    }
+
+    @keyframes waveThenSlowRise {
+      0%, 50% {
+        /* Wave movement on flat line */
+        d: path("M0 178 L20 178 L60 178 L100 178 L140 178 L180 178 L220 178 L260 178 L300 178 L340 178 L380 178 L420 178 L460 178 L500 178 L540 178 L580 178 L620 178 L660 178 L700 178 L740 178 L780 178 L820 178 L860 178 L900 178");
+      }
+      100% {
+        /* Rise with original shape */
+        d: path("M0 180 L20 178 L60 178 L100 178 L140 178 L180 178 L220 178 L260 178 L300 178 L340 178 L380 178 L420 178 L460 150 L500 100 L540 130 L580 120 L620 178 L660 178 L700 80 L740 60 L780 120 L820 70 L860 110 L900 178");
+      }
+    }
+    a h3 {
+      text-decoration: none;
+    }
+  </style>
+ </head>
+ <body class="bg-[#1e1e1e] text-white font-sans">
+  <div class="max-w-6xl mx-auto p-6">
+   <div class="flex justify-between items-center mb-4">
+    <h1 class="font-extrabold text-lg leading-6">
+     Channel analytics
+    </h1>
+   </div>
+   <div class="flex justify-between items-center mb-4">
+    <nav aria-label="Channel analytics sections" class="flex space-x-6 text-xs font-semibold text-gray-400" role="tablist">
+     <button aria-controls="panel-overview" aria-selected="false" class="hover:text-white focus:outline-none" id="tab-overview" role="tab" tabindex="-1" type="button">
+      Overview
+     </button>
+     <button aria-controls="panel-content" aria-selected="true" class="text-white border-b-2 border-white pb-1 focus:outline-none" id="tab-content" role="tab" tabindex="0" type="button">
+      Content
+     </button>
+     <button aria-controls="panel-audience" aria-selected="false" class="hover:text-white focus:outline-none" id="tab-audience" role="tab" tabindex="-1" type="button">
+      Audience
+     </button>
+    </nav>
+    <div class="text-right text-xs text-gray-400 min-w-[120px]">
+     <div>
+      Apr 6 – May 3, 2025
+     </div>
+     <button aria-expanded="false" class="font-semibold text-white flex items-center space-x-1" type="button">
+      <span>
+       Last 28 days
+      </span>
+      <svg aria-hidden="true" class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round">
+       </path>
+      </svg>
+     </button>
+    </div>
+   </div>
+   <div class="flex space-x-2 mb-6">
+    <button class="text-xs font-semibold bg-[#3a3a3a] rounded-full px-3 py-1" type="button">
+     All
+    </button>
+    <button class="text-xs font-semibold bg-white text-black rounded-full px-3 py-1" type="button">
+     Videos
+    </button>
+    <button class="text-xs font-semibold bg-[#3a3a3a] rounded-full px-3 py-1" type="button">
+     Posts
+    </button>
+   </div>
+   <section aria-labelledby="tab-overview" hidden="" id="panel-overview" role="tabpanel" tabindex="0">
+    <h2 class="text-white text-center font-semibold text-base mb-6">
+     Your channel got
+     <span class="font-bold">
+      356
+     </span>
+     views in the last 28 days
+    </h2>
+    <div class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 mb-8">
+     <div class="flex-1 bg-gray-800 rounded-md p-4 flex flex-col items-center">
+      <span class="text-xs text-gray-400 mb-1">
+       Views
+      </span>
+      <span class="text-white font-bold text-lg">
+       356
+      </span>
+     </div>
+     <div class="flex-1 bg-gray-800 rounded-md p-4 flex flex-col items-center">
+      <span class="text-xs text-gray-400 mb-1 text-center">
+       Watch time (hours)
+      </span>
+      <div class="flex items-center space-x-1 mb-1">
+       <span class="text-white font-bold text-lg">
+        12.6
+       </span>
+       <i class="fas fa-info-circle text-green-500 text-xs">
+       </i>
+      </div>
+      <span class="text-xs text-gray-400 text-center">
+       89% more than previous 28 days
+      </span>
+     </div>
+     <div class="flex-1 bg-gray-800 rounded-md p-4 flex flex-col items-center">
+      <span class="text-xs text-gray-400 mb-1 text-center">
+       Subscribers
+      </span>
+      <div class="flex items-center space-x-1 mb-1">
+       <span class="text-green-500 font-bold text-lg">
+        +14
+       </span>
+       <i class="fas fa-info-circle text-green-500 text-xs">
+       </i>
+      </div>
+      <span class="text-xs text-gray-400 text-center">
+       7% less than previous 28 days
+      </span>
+     </div>
+    </div>
+    <div class="relative">
+     <svg aria-label="Line chart showing views over time" class="w-full h-48" role="img" viewbox="0 0 900 200">
+      <defs>
+       <lineargradient id="areaGradient" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgba(129, 140, 248, 0.2)">
+        </stop>
+        <stop offset="100%" stop-color="rgba(129, 140, 248, 0)">
+        </stop>
+       </lineargradient>
+      </defs>
+      <path class="chart-area" d="M0 180 L20 178 L60 178 L100 178 L140 178 L180 178 L220 178 L260 178 L300 178 L340 178 L380 178 L420 178 L460 150 L500 100 L540 130 L580 120 L620 178 L660 178 L700 80 L740 60 L780 120 L820 70 L860 110 L900 178 L900 200 L0 200 Z" fill="url(#areaGradient)">
+      </path>
+      <path class="chart-line" d="M0 180 L20 178 L60 178 L100 178 L140 178 L180 178 L220 178 L260 178 L300 178 L340 178 L380 178 L420 178 L460 150 L500 100 L540 130 L580 120 L620 178 L660 178 L700 80 L740 60 L780 120 L820 70 L860 110 L900 178">
+      </path>
+      <!-- Y axis labels -->
+      <text fill="#9ca3af" font-size="10" text-anchor="end" x="880" y="185">
+       0
+      </text>
+      <text fill="#9ca3af" font-size="10" text-anchor="end" x="880" y="140">
+       30
+      </text>
+      <text fill="#9ca3af" font-size="10" text-anchor="end" x="880" y="95">
+       60
+      </text>
+      <text fill="#9ca3af" font-size="10" text-anchor="end" x="880" y="50">
+       90
+      </text>
+      <!-- X axis labels aligned evenly -->
+      <text fill="#9ca3af" font-size="10" text-anchor="middle" x="40" y="195">
+       Apr 6, 2025
+      </text>
+      <text fill="#9ca3af" font-size="10" text-anchor="middle" x="160" y="195">
+       Apr 11, 2025
+      </text>
+      <text fill="#9ca3af" font-size="10" text-anchor="middle" x="280" y="195">
+       Apr 15, 2025
+      </text>
+      <text fill="#9ca3af" font-size="10" text-anchor="middle" x="400" y="195">
+       Apr 20, 2025
+      </text>
+      <text fill="#9ca3af" font-size="10" text-anchor="middle" x="520" y="195">
+       Apr 24, 2025
+      </text>
+      <text fill="#9ca3af" font-size="10" text-anchor="middle" x="640" y="195">
+       Apr 29, 2025
+      </text>
+      <text fill="#9ca3af" font-size="10" text-anchor="middle" x="760" y="195">
+       May 3, 2025
+      </text>
+     </svg>
+    </div>
+   </section>
+   <section aria-labelledby="tab-content" id="panel-content" role="tabpanel" tabindex="0">
+    <h2 class="text-white text-center font-semibold text-base mb-6">
+     Content Overview
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+     <a href="https://youtu.be/tvdwkH-WVcc?feature=shared" target="_blank" rel="noopener noreferrer" class="bg-gray-800 rounded-md p-4 flex flex-col items-center cursor-pointer hover:bg-gray-700 transition no-underline">
+      <img alt="Thumbnail showing hands typing on a laptop keyboard with analytics dashboard on screen" class="rounded mb-3 w-full object-cover" height="120" src="https://img.youtube.com/vi/tvdwkH-WVcc/hqdefault.jpg" width="200"/>
+      <h3 class="text-white font-semibold text-lg mb-1" style="text-decoration:none;">
+       Get Ready to 🌸 BLOOM from Within! | Healthy Lifestyle TIPS! 💖 [Teaser]
+      </h3>
+     </a>
+     <a href="https://youtu.be/Z8WTxssfmrQ?feature=shared" target="_blank" rel="noopener noreferrer" class="bg-gray-800 rounded-md p-4 flex flex-col items-center cursor-pointer hover:bg-gray-700 transition no-underline">
+      <img alt="Thumbnail showing a graph with upward trend and analytics icons" class="rounded mb-3 w-full object-cover" height="120" src="https://img.youtube.com/vi/Z8WTxssfmrQ/hqdefault.jpg" width="200"/>
+      <h3 class="text-white font-semibold text-lg mb-1" style="text-decoration:none;">
+       🎯 Challenges In Life: Pandemic, Puberty & Lifestyle Tips 🌸 | Blooming Wellness: Podcast Ep. 1🎙️
+      </h3>
+     </a>
+     <a href="https://youtu.be/XPcVCYzR1_o?feature=shared" target="_blank" rel="noopener noreferrer" class="bg-gray-800 rounded-md p-4 flex flex-col items-center cursor-pointer hover:bg-gray-700 transition no-underline">
+      <img alt="Thumbnail showing a person editing video content on a computer screen" class="rounded mb-3 w-full object-cover" height="120" src="https://img.youtube.com/vi/XPcVCYzR1_o/hqdefault.jpg" width="200"/>
+      <h3 class="text-white font-semibold text-lg mb-1" style="text-decoration:none;">
+       🌸 Blooming Wellness - Episode 2 | Official Teaser
+      </h3>
+     </a>
+     <a href="https://youtu.be/gsA7JuNifS4?feature=shared" target="_blank" rel="noopener noreferrer" class="bg-gray-800 rounded-md p-4 flex flex-col items-center cursor-pointer hover:bg-gray-700 transition no-underline">
+      <img alt="Thumbnail of a person presenting in front of a camera with studio lights" class="rounded mb-3 w-full object-cover" height="120" src="https://img.youtube.com/vi/gsA7JuNifS4/hqdefault.jpg" width="200"/>
+      <h3 class="text-white font-semibold text-lg mb-1" style="text-decoration:none;">
+       🍰 Baking Banana Cake: Discussing HEALTHY BENEFITS 🌷 | Blooming Wellness: Podcast - Ep.2 🎙️
+      </h3>
+     </a>
+    </div>
+   </section>
+   <section aria-labelledby="tab-audience" hidden="" id="panel-audience" role="tabpanel" tabindex="0">
+    <h2 class="text-white text-center font-semibold text-base mb-6">
+     Audience Insights
+    </h2>
+    <div class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 mb-8">
+     <div class="flex-1 bg-gray-800 rounded-md p-4 flex flex-col items-center">
+      <span class="text-xs text-gray-400 mb-1">
+       Returning viewers
+      </span>
+      <span class="text-white font-bold text-lg">
+       47
+      </span>
+     </div>
+     <div class="flex-1 bg-gray-800 rounded-md p-4 flex flex-col items-center">
+      <span class="text-xs text-gray-400 mb-1">
+       Unique viewers
+      </span>
+      <span class="text-white font-bold text-lg">
+       116
+      </span>
+     </div>
+     <div class="flex-1 bg-gray-800 rounded-md p-4 flex flex-col items-center">
+      <span class="text-xs text-gray-400 mb-1">
+       Subscribers
+      </span>
+      <span class="text-green-500 font-bold text-lg">
+       +14
+      </span>
+      <span class="text-xs text-gray-400 text-center mt-1">
+       7% less than previous 28 days
+      </span>
+     </div>
+    </div>
+    <div aria-label="Audience returning and new viewers line chart" class="chart-container">
+     <svg aria-labelledby="audienceChartTitle audienceChartDesc" fill="none" height="160" role="img" tabindex="0" viewbox="0 0 1000 160" width="100%" xmlns="http://www.w3.org/2000/svg">
+      <title id="audienceChartTitle">
+       Line chart showing returning and new viewers over time
+      </title>
+      <desc id="audienceChartDesc">
+       Two lines representing returning viewers in purple and new viewers in sky blue from April 6 to May 3, 2025
+      </desc>
+      <rect fill="#2a2a2a" height="160" width="1000">
+      </rect>
+      <line stroke="#3a3a3a" stroke-width="1" x1="0" x2="1000" y1="20" y2="20">
+      </line>
+      <line stroke="#3a3a3a" stroke-width="1" x1="0" x2="1000" y1="40" y2="40">
+      </line>
+      <line stroke="#3a3a3a" stroke-width="1" x1="0" x2="1000" y1="60" y2="60">
+      </line>
+      <line stroke="#3a3a3a" stroke-width="1" x1="0" x2="1000" y1="80" y2="80">
+      </line>
+      <line stroke="#3a3a3a" stroke-width="1" x1="0" x2="1000" y1="100" y2="100">
+      </line>
+      <line stroke="#3a3a3a" stroke-width="1" x1="0" x2="1000" y1="120" y2="120">
+      </line>
+      <line stroke="#3a3a3a" stroke-width="1" x1="0" x2="1000" y1="140" y2="140">
+      </line>
+      <path d="M0 120 L80 120 L160 120 L240 120 L320 120 L400 120 L480 120 L560 120 L640 60 L720 140 L800 100 L880 140 L960 120 L1000 120" fill="none" id="returningLine" stroke="#a78bfa" stroke-width="2">
+      </path>
+      <path d="M0 120 L80 120 L160 120 L240 120 L320 120 L400 120 L480 120 L560 120 L640 120 L720 120 L800 140 L880 120 L960 160 L1000 40" fill="none" id="newLine" stroke="#38bdf8" stroke-width="2">
+      </path>
+     </svg>
+     <div class="flex justify-between text-[10px] text-[#6b6b6b] mt-2 select-none">
+      <span>
+       Apr 6, 2025
+      </span>
+      <span>
+       Apr 11, 2025
+      </span>
+      <span>
+       Apr 15, 2025
+      </span>
+      <span>
+       Apr 20, 2025
+      </span>
+      <span>
+       Apr 24, 2025
+      </span>
+      <span>
+       Apr 29, 2025
+      </span>
+      <span>
+       May 3, 2025
+      </span>
+     </div>
+    </div>
+   </section>
+  </div>
+  <script>
+   const tabs = document.querySelectorAll('nav button[role="tab"]');
+    const panels = document.querySelectorAll('section[role="tabpanel"]');
+
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        tabs.forEach((t) => {
+          t.setAttribute('aria-selected', 'false');
+          t.setAttribute('tabindex', '-1');
+          t.classList.remove('text-white', 'border-b-2', 'border-white', 'pb-1');
+          t.classList.add('text-gray-400', 'hover:text-white');
+        });
+        panels.forEach((panel) => {
+          panel.hidden = true;
+        });
+
+        tab.setAttribute('aria-selected', 'true');
+        tab.setAttribute('tabindex', '0');
+        tab.classList.remove('text-gray-400', 'hover:text-white');
+        tab.classList.add('text-white', 'border-b-2', 'border-white', 'pb-1');
+
+        const panelId = tab.getAttribute('aria-controls');
+        const panel = document.getElementById(panelId);
+        if (panel) {
+          panel.hidden = false;
+          panel.focus();
+        }
+      });
+
+      tab.addEventListener('keydown', (e) => {
+        let index = Array.from(tabs).indexOf(e.currentTarget);
+        if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          const nextIndex = (index + 1) % tabs.length;
+          tabs[nextIndex].focus();
+        } else if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          const prevIndex = (index - 1 + tabs.length) % tabs.length;
+          tabs[prevIndex].focus();
+        } else if (e.key === 'Home') {
+          e.preventDefault();
+          tabs[0].focus();
+        } else if (e.key === 'End') {
+          e.preventDefault();
+          tabs[tabs.length - 1].focus();
+        }
+      });
+    });
+	document.addEventListener("DOMContentLoaded", function() {
+    const questions = document.querySelectorAll('.faq-question');
+
+    questions.forEach(question => {
+        question.addEventListener('click', function() {
+            const answer = this.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+
+    window.addEventListener('scroll', function() {
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+            const rect = section.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom > 0) {
+                section.classList.add('fade-in');
+            }
+        });
+    });
+});
+  </script>
+</body>
+		
